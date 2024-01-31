@@ -1,0 +1,116 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.container-fluid {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a {
+    font-size: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: rage;
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    flex: 1;
+    margin-left: 20px;
+    height: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu ul li a:hover {
+    color: beige;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+}
+
+.auth a {
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin: 0 5px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.auth .login {
+    background: rgba(36, 36, 62, .8);
+}
+
+.auth .login:hover {
+    background: rgba(36, 36, 62, 1);
+}
+
+.auth .signup {
+    background: rgba(36, 36, 62, .8);
+}
+
+.auth .signup:hover {
+    background: rgba(36, 36, 62, 1);
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .auth {
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,22 @@
+<div class="navbar">
+    <div class="container-fluid">
+        <div class="logo">
+            <h2><a routerLink="/" routerLinkActive="active">TaskifyPro</a></h2>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li routerLink="/" routerLinkActive="active"><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="auth">
+            <a routerLink="login/" routerLinkActive="active" class="btn login">Login</a>
+            <a routerLink="signup/" routerLinkActive="active" class="btn signup">Sign Up</a>
+        </div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>

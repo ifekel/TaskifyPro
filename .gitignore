@@ -1,0 +1,39 @@
+# Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.log
+
+# Virtual Environment
+venv/
+env/
+
+# Node.js
+node_modules/
+
+# Angular
+/dist/
+/*.d.ts
+/*.js.map
+/*.js
+/*.ngfactory.ts
+/*.ngstyle.ts
+/*.ngsummary.json
+/*.metadata.json
+/bs-config.json
+/tsconfig.json
+/tslint.json
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test generated files
+/coverage/
+/test-results.xml
